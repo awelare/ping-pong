@@ -50,7 +50,7 @@ class Ball(GameSprite):
 
 
 window = display.set_mode((ssX, ssY))
-display.set_caption('Пинг понг')
+display.set_caption('Pong game')
 bg = window.fill(bgCol)
 
 pl1 = Player(pl1x, pl1y, 'платформа.png', plx, ply)
